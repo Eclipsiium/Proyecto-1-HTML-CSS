@@ -96,6 +96,10 @@ footer > p {
   align-items: center;
 }
 
+h3 {
+  text-align: center;
+}
+
 footer > nav > ul > li > img {
   height: 80px;
   width: 80px;
@@ -142,3 +146,11 @@ button {
     grid-template-columns: 1fr;
   }
 }
+
+@media (min-width: 490px) {
+  footer > nav > ul > li > img {
+    height: 60px;
+    width: 60px;
+  }
+}
+
